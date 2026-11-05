@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+	overflow: hidden;
+    background-image: url(https://i.pinimg.com/736x/c2/d0/a4/c2d0a468958a6d8caaf574cd29e0331a.jpg);
+    background-size:cover; 
+}
+
+.flipbook {
+    width: 1000px;
+    height: 600px;
+}
+
+.flipbook .hard {
+    background-color: white;
+    background-image:url(https://i.pinimg.com/736x/91/4f/9a/914f9a422363b3813e3d0d7fe04344d2.jpg);
+    color: orange;
+    font-weight: bold;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    border: none;
+    background-size: cover;
+    background-position: center;
+}
+.flipbook .hard.fin {
+    background-color: white;
+    background-image:url(https://i.pinimg.com/736x/30/71/2d/30712d74da66c335e6e3f337c106bdc2.jpg);
+    color: orange;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+}
+
+.flipbook .hard small{
+	font-style: italic;
+	font-weight: lighter;
+	opacity: 0.7;
+	font-size: 14px;
+    margin-bottom: 10px;
+   font-position: bottom;
+}
+
+.flipbook .page:not(.hard) {
+    
+    background-image: url(https://i.pinimg.com/736x/af/c4/ed/afc4ed499e448adaf198538d37d0d82e.jpg);
+    color:blue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    background-size: cover;
+    background-position: center;
+}
+
+.page img{
+	width: 70%;
+	object-fit: cover;
+	margin: auto;
+}
+
+.flipbook .page small{
+	font-size: 14px;
+    margin-bottom: 10px;
+}
