@@ -65,3 +65,6 @@ Objectif : Rendre ton site accessible au monde entier (et aux recruteurs).
 
 Livrable : Héberger ton code sur GitHub, puis utiliser un service gratuit comme Render ou PythonAnywhere (ou Microsoft Azure, si tu veux valider tes acquis) pour que ton site ait une vraie URL (ex: openbook-connect.onrender.com).
 >>>>>>> b4ff38b8800a6a99ebd977460d3318e46a6a0a80
+
+
+<img width="2374" height="1394" alt="image" src="https://github.com/user-attachments/assets/a855a145-6ac0-49f3-8378-a470869ccb30" />
